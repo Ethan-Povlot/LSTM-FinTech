@@ -8,7 +8,7 @@ from keras.layers import Dense, LSTM, Dropout
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
 
-df = np.asarray(pd.read_csv("final_dataset(date).csv", parse_dates=True))
+df = np.asarray(pd.read_csv("input_simple(date).csv", parse_dates=True))
 output = np.asarray(pd.read_csv("output.csv"))
 
 epochs = 7
