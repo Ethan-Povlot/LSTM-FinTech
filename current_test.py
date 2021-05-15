@@ -5,7 +5,7 @@ from tensorflow.keras import layers, losses, optimizers, Sequential, preprocessi
 from sklearn.preprocessing import MinMaxScaler
 import matplotlib.pyplot as plt
 
-num_features = 100
+num_features = 100 #this may need to be chaged based on size of data set
 batch_size = 128
 epochs = 150
 
